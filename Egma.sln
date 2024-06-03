@@ -5,6 +5,10 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egma.API", "Egma.API\Egma.API.csproj", "{788DC07F-FF64-4CC3-82BF-4063D791501D}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8865A5A2-3C3A-4440-9AEC-54BB9A6FC882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egma.Tests", "Egma.Tests\Egma.Tests.csproj", "{7574766A-D72D-476B-9C02-437FC2DEF413}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{788DC07F-FF64-4CC3-82BF-4063D791501D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{788DC07F-FF64-4CC3-82BF-4063D791501D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{788DC07F-FF64-4CC3-82BF-4063D791501D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8865A5A2-3C3A-4440-9AEC-54BB9A6FC882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8865A5A2-3C3A-4440-9AEC-54BB9A6FC882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8865A5A2-3C3A-4440-9AEC-54BB9A6FC882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8865A5A2-3C3A-4440-9AEC-54BB9A6FC882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7574766A-D72D-476B-9C02-437FC2DEF413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7574766A-D72D-476B-9C02-437FC2DEF413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7574766A-D72D-476B-9C02-437FC2DEF413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7574766A-D72D-476B-9C02-437FC2DEF413}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
